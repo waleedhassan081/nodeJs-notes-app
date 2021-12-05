@@ -4,24 +4,24 @@ npm i
 
 Notes will be added by command line and in this project we are using yargs npm package.
 
-Add Notes 
+# Add Notes 
 
-# node app.js add --title="My Note Title" --body="Explain your notes in details here"
+node app.js add --title="My Note Title" --body="Explain your notes in details here"
 
-Read Note
+# Read Note
 
-# node app.js readNote --title="My Note Title"
+node app.js readNote --title="My Note Title"
 
-Edit Note
+# Edit Note
 
-# node app.js editNote --title="My Note Title" --body="Update Note body"
+node app.js editNote --title="My Note Title" --body="Update Note body"
 
-List Note
+# List Note
 
-# node app.js listNotes
+node app.js listNotes
 
-Remove Note
+# Remove Note
 
-# node app.js remove --title="My Note Title"
+node app.js remove --title="My Note Title"
 
 In this project I am also using chalk package to display the messages and notes in a fency colored way.
